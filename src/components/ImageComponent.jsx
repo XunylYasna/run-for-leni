@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const ImageComponent = ({ src, fallback, type = "image/webp", alt }) => {
   return (
